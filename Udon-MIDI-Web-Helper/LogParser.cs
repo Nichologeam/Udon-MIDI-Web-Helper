@@ -420,10 +420,8 @@ namespace Udon_MIDI_Web_Helper
             // 2021.01.01 00:00:00 Log        -  [Udon-MIDI-Web-Helper] connectionKey STORE key value public global
             // 2021.01.01 00:00:00 Log        -  [Udon-MIDI-Web-Helper] connectionKey RETRIEVE 3 key wrld_9f212814-2234-4d53-905b-736a84895bc5
             // 2021.01.01 00:00:00 Log        -  [Udon-MIDI-Web-Helper] connectionKey OPENBROWSER https://www.github.com
-            // 2026.02.10 00:52:05 Debug      -  [Udon-MIDI-Web-Helper] READY
             if (line.Length > 58 && line.Substring(34, 22) == "[Udon-MIDI-Web-Helper]")
             {
-                Console.WriteLine("Web Helper log found!");
                 string[] args = line.Substring(57).Split(' ');
                 if (args[0] == connectionKey)
                 {
