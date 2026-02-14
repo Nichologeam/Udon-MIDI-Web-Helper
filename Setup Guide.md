@@ -1,7 +1,7 @@
 # Setup Guide
 This requires...
-- The APWorld from the [Releases Page](https://github.com/Nichologeam/Udon-MIDI-Web-Helper/releases)
-- The custom build of Udon-MIDI-Web-Helper from the [Releases Page](https://github.com/Nichologeam/Udon-MIDI-Web-Helper/releases)
+- The APWorld from the [Releases Page](https://github.com/Nichologeam/VRChat-AP/releases)
+- The custom build of Udon-MIDI-Web-Helper from the [Releases Page](https://github.com/Nichologeam/VRChat-AP/releases)
 - [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) by Tobias Erichsen
 
 1. Generate a Multiworld with the VRChat .yaml
